@@ -51,10 +51,12 @@ intellij {
     downloadSources = platformDownloadSources.toBoolean()
     updateSinceUntilBuild = true
 
+
 //  Plugin Dependencies:
 //  https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_dependencies.html
 //
-//  setPlugins("java")
+//    setPlugins("org.jetbrains.plugins.github:201.6668.27")
+    setPlugins("Git4Idea", "com.intellij.tasks")
 }
 
 // Configure detekt plugin.
